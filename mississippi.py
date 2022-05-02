@@ -16,7 +16,7 @@ def most_frequent(arr, Len):
         print(f"{arg_max} - {currentMax}")
         occ.pop(arg_max)
         size -= 1
-Str = str(input("enter the word"))
-Len = len(Str)
-most_frequent(list(Str), Len)
+a =input("enter the word")
+Len = len(a)
+most_frequent(list(a), Len)
 
